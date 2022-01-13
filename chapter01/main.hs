@@ -1,7 +1,7 @@
 -- 3
 product_ [] = 0
 product_ [x] = x
-product_ (x:xs) = x * product xs
+product_ (x:xs) = x * product_ xs
 
 -- 4
 qsort [] = []
